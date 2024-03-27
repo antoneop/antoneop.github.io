@@ -145,7 +145,7 @@ h2{
 .competition {
     width: 80%;
     margin: auto;
-    background-color: #fff;
+    background-color:#453c6b;
     padding: 40px;
     border-radius: 8px;
     font-weight: bold;
@@ -158,9 +158,13 @@ h2{
 }
 #h-comp{
     font-size: 30px;
-    font-family: 'Georgia', sans-serif, 'Courier New', 'Montserrat', 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    color: #f9c15d;
+}
+.h-comp1{
+    font-size: 40px;
+    color: #f9c15d;
 }
 .h-list li{
     font-size: 20px;
-    font-family: 'Georgia', sans-serif, 'Courier New', 'Montserrat', 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    color: #f9c15d;
 }
