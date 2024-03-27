@@ -1,0 +1,166 @@
+body {
+    font-family: 'Georgia', sans-serif, 'Courier New', Arial;
+    margin: 0;
+    background-color: #453c6b;
+}
+
+header {
+    color: #453c6b;
+    padding: 20px 10px 25px 10px;
+    text-align: center;
+}
+
+header b {
+    font-size: 40px;
+    font-style: initial;
+    line-height: 40px;
+    font-family: 'Georgia', sans-serif, 'Courier New', 'Droid Serif', 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    color: #f9c15d;
+}
+
+footer {
+    background-color:#4b4a4a;
+}
+
+.text {
+    font-weight: normal;
+    font-size: 20px;
+    color:#f9c15d; 
+}
+
+.gallery {
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.gallery p {
+    font-size: 40px;
+}
+
+.gallery section img {
+    width: 290px;
+    max-height: 200px; 
+    margin: 5px; 
+    height: 200%;
+}
+
+h2{
+    font-weight: 700;
+    font-family: 'Georgia', sans-serif, 'Courier New', 'Montserrat', 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    color:#f9c15d;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #4b4a4a;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    z-index: 1000;
+    
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    padding: 0.2em;
+    font-size: 200%;
+    color:#f9c15d;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) and (orientation: portrait){
+    .nav-links a {
+        display: block;
+        padding: 0.2em;
+        font-size: 200%;
+        color:#f9c15d;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    .nav-links {
+        display: block;
+    }
+    .navbar{
+        height: 210px;
+        display: block;
+    }
+}
+.logo {
+    font-size: 300%;
+    color: #f9c15d;
+    text-shadow: 5px 5px 5px #5d4502;
+    font-weight: 700;
+    font-family: 'Georgia', sans-serif, 'Courier New', 'Montserrat', 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    text-align: center;
+}
+
+.nav-links a:hover {
+    color: #caff0c;
+}
+.nav-links a:active {
+    color:#07cc3c;
+}
+
+.resume section, #bio {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 40px 20px 20px 20px;
+    border-radius: 8px;
+    font-size: 13px;
+}
+
+#bio {
+    padding: 5px 20px 20px 20px;
+    background-color: #453c6b;
+}
+
+.resume section table {
+    width: 100%; 
+}
+.resume section table th, .resume section table td {
+    padding: 5px;
+    border: 1px solid #ddd;
+    text-align: start;
+    line-height: 30px;
+   
+}
+.resume section table th:first-child{
+    width: 20%; 
+    text-align: center;
+}
+.resume section table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.competition {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.list-inline-item {
+  display: inline-block;
+}
+#icon {
+    height: 220px;
+}
+#h-comp{
+    font-size: 30px;
+    font-family: 'Georgia', sans-serif, 'Courier New', 'Montserrat', 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+.h-list li{
+    font-size: 20px;
+    font-family: 'Georgia', sans-serif, 'Courier New', 'Montserrat', 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
