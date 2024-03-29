@@ -34,6 +34,12 @@ footer {
     justify-content: center;
     text-align: center;
 }
+.competitionimg {
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
 
 .gallery p {
     font-size: 40px;
@@ -45,7 +51,12 @@ footer {
     margin: 5px; 
     height: 200%;
 }
-
+.competition section img {
+    width: 280px;
+    max-height: 200px; 
+    margin: 5px; 
+    height: 200%;
+}
 h2{
     font-weight: 700;
     font-family: 'Georgia', sans-serif, 'Courier New', 'Montserrat', 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
@@ -156,7 +167,7 @@ h2{
 #icon {
     height: 220px;
 }
-#h-comp{
+.h-comp{
     font-size: 30px;
     color: #f9c15d;
 }
